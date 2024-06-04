@@ -14,7 +14,7 @@ No exemplo abaixo criamos a variável *x* e atribuímos o valor dessa variável 
 Podemos dar o valor e nome que quisermos. 
 Mas temos que ter cuidado ao dar nome a uma variável, não podemos ter espaços.
 
-Ex: Se quisermos colocar uma variável chamada marcas de carros. Não podemos deixar separadas, podemos fazer da seguinte maneira marcaDeCarro, _MarcaDeCarros_.
+Ex: Se quisermos colocar uma variável chamada marcas de carros. Não podemos deixar separadas, podemos fazer da seguinte maneira marcaDeCarro, _MarcaDeCarro_.
 
 ### Tipos de dados:
 **Strings:** São textos, números. 
@@ -25,7 +25,7 @@ Se iniciar uma string com aspas dupla, deve fecha-las com aspas duplas, a mesma 
 
  
 Para saber o tipo de dado basta digitar o _typeof_
-O _console.log ()_ é a forma de imprimir o que foi digitado.
+ _console.log ()_ é a forma de imprimir o que foi digitado.
 
 ![Tipo-de-dado](https://github.com/felipeenge/Caso-de-teste/assets/121561336/5f62c067-f105-4d0c-8838-6c1292100977)
  
@@ -137,7 +137,7 @@ Altera o conteúdo do texto de um elemento com o id __"texto"__
 
 *Mudar Styles*:
 Altera a cor de todos os elementos com a classe __"destaques"__
-const elements = document.getElementsByClassName("destaques");
+`const elements = document.getElementsByClassName("destaques");`
 ```
 for (const element of elements) {
   element.style.color = "blue";
