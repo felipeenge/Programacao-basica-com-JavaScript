@@ -1,4 +1,4 @@
-// Isso pacote, vai gerar um nome aleatório a cada vez que rodamos ele
+// Isse pacote, vai gerar um nome aleatório a cada vez que rodamos ele
 
 const generateName = require("sillyname")
 const sillyName = generateName()
